@@ -1,0 +1,101 @@
+modo,linea,orden_segmento,origen,destino,tiempo_movimiento_promedio_min,espera_promedio_min,tiempo_total_estimado_min,tipo_fuente,metodologia
+Metro,A,1,Acevedo,Tricentenario,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,2,Tricentenario,Caribe,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,3,Caribe,Universidad,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,4,Universidad,Hospital,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,5,Hospital,Prado,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,6,Prado,Parque Berrío,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,7,Parque Berrío,San Antonio,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,8,San Antonio,Alpujarra,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,9,Alpujarra,Exposiciones,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,10,Exposiciones,Industriales,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,11,Industriales,Poblado,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,12,Poblado,Aguacatala,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,13,Aguacatala,Madera,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,14,Madera,Bello,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,15,Bello,Niquía,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,16,Niquía,Ayurá,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,17,Ayurá,Envigado,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,18,Envigado,Itaguí,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,19,Itaguí,Sabaneta,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,A,20,Sabaneta,La Estrella,2.1,1.5,3.6,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,B,1,Cisneros,Suramericana,1.75,1.9167,3.6667,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,B,2,Suramericana,Estadio,1.75,1.9167,3.6667,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,B,3,Estadio,Floresta,1.75,1.9167,3.6667,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,B,4,Floresta,Santa Lucia,1.75,1.9167,3.6667,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,B,5,Santa Lucia,San Javier,1.75,1.9167,3.6667,oficial,Tiempo total oficial por trayecto / segmentos
+Metro,B,6,San Javier,San Antonio,1.75,1.9167,3.6667,oficial,Tiempo total oficial por trayecto / segmentos
+Metroplús,1,1,Universidad de Medellín,Cisneros,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,2,Cisneros,Minorista,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,3,Minorista,Chagualo,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,4,Chagualo,Ruta N,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,5,Ruta N,Parque Aranjuez,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,6,Parque Aranjuez,Berlin,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,7,Berlin,Las Esmeraldas,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,8,Las Esmeraldas,Manrique,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,9,Manrique,Gardel,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,10,Gardel,Palos Verdes,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,11,Palos Verdes,San Pedro,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,12,San Pedro,Hospital,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,13,Hospital,Plaza Mayor,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,14,Plaza Mayor,Nutibara,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,15,Nutibara,Fátima,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,16,Fátima,Rosales,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,17,Rosales,Parque Belén,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,18,Parque Belén,La Palma,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,1,19,La Palma,Los Alpes,2.3684,1.4583,3.8267,no_oficial_documentado,Tiempo promedio de recorrido reportado para la Línea 1 / segmentos del archivo
+Metroplús,2,1,Barrio Colombia,Perpetuo Socorro,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,2,Perpetuo Socorro,Barrio Colón,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,3,Barrio Colón,San José,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,4,San José,La Playa,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,5,La Playa,Catedral Metropolitana,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,6,Catedral Metropolitana,Prado,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,7,Prado,Parque Aranjuez,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,8,Parque Aranjuez,Berlin,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,9,Berlin,Las Esmeraldas,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,10,Las Esmeraldas,Manrique,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,11,Manrique,Gardel,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,12,Gardel,Industriales,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,13,Industriales,Nutibara,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,14,Nutibara,Fátima,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,15,Fátima,Rosales,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,16,Rosales,Parque Belén,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,17,Parque Belén,La Palma,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,18,La Palma,Los Alpes,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,19,Los Alpes,Universidad de Medellín,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,2,20,Universidad de Medellín,Palos Verdes,3.0,3.0,6.0,no_oficial_documentado,Tiempo de recorrido reportado para la Línea 2 / segmentos del archivo
+Metroplús,O,1,Caribe Buses CR 64,Cementerio Universal,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,2,Cementerio Universal,Barrio Cordoba Tranversal 78,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,3,Barrio Cordoba Tranversal 78,Barrio Pilarica CL 73 x CR 72A,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,4,Barrio Pilarica CL 73 x CR 72A,Ciudadela Universitaria,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,5,Ciudadela Universitaria,Facultad de Minas,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,6,Facultad de Minas,Barrio los Colores AV 80 x CL 54,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,7,Barrio los Colores AV 80 x CL 54,Barrio Calazans,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,8,Barrio Calazans,Integracion Estación Floresta,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,9,Integracion Estación Floresta,Barrio Los Pinos,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,10,Barrio Los Pinos,Barrio Laureles,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,11,Barrio Laureles,Santa Gema,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,12,Santa Gema,Nueva Villa de Aburrá,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metroplús,O,13,Nueva Villa de Aburrá,Integracion La Palma,2.3077,,,estimado,Estimado por 8 km y velocidad comercial de 16 km/h; tiempo = distancia / velocidad
+Metrocable,H,1,Villa Sierra,Las Torres,2.5,0.1,2.6,estimado,Estimado por 3 estaciones y velocidad comercial de cable urbano similar
+Metrocable,H,2,Las Torres,Oriente,2.5,0.1,2.6,estimado,Estimado por 3 estaciones y velocidad comercial de cable urbano similar
+Metrocable,J,1,Juan XXIII,Vallejuelos,4.0,0.1,4.1,no_oficial_documentado,Tiempo de recorrido publicado en fuente secundaria para Línea J / segmentos
+Metrocable,J,2,Vallejuelos,La Aurora,4.0,0.1,4.1,no_oficial_documentado,Tiempo de recorrido publicado en fuente secundaria para Línea J / segmentos
+Metrocable,J,3,La Aurora,San Javier,4.0,0.1,4.1,no_oficial_documentado,Tiempo de recorrido publicado en fuente secundaria para Línea J / segmentos
+Metrocable,K,1,Santo Domingo,Popular,3.0,0.1,3.1,no_oficial_documentado,Tiempo de recorrido publicado en fuente secundaria para Línea K / segmentos
+Metrocable,K,2,Popular,Andalucía,3.0,0.1,3.1,no_oficial_documentado,Tiempo de recorrido publicado en fuente secundaria para Línea K / segmentos
+Metrocable,K,3,Andalucía,Acevedo,3.0,0.1,3.1,no_oficial_documentado,Tiempo de recorrido publicado en fuente secundaria para Línea K / segmentos
+Metrocable,L,1,Arví,Santo Domingo,15.0,0.1167,15.1167,no_oficial_documentado,Tiempo de recorrido publicado en fuente secundaria para Línea L / segmentos
+Metrocable,M,1,13 de Noviembre,El Pinal,2.5,0.1,2.6,estimado,Estimado por 3 estaciones y velocidad comercial de cable urbano similar
+Metrocable,M,2,El Pinal,Miraflores,2.5,0.1,2.6,estimado,Estimado por 3 estaciones y velocidad comercial de cable urbano similar
+Metrocable,P,1,Doce de Octubre,El Progreso,1.6667,0.1,1.7667,estimado,Estimado por 4 estaciones y velocidad comercial de cable urbano similar
+Metrocable,P,2,El Progreso,Acevedo,1.6667,0.1,1.7667,estimado,Estimado por 4 estaciones y velocidad comercial de cable urbano similar
+Metrocable,P,3,Acevedo,Sena-Pedregal,1.6667,0.1,1.7667,estimado,Estimado por 4 estaciones y velocidad comercial de cable urbano similar
+Tranvía,T,1,Alejandro Echavarría,Bicentenario,2.25,2.5,4.75,estimado,Estimado operativo para línea completa con 9 estaciones / segmentos
+Tranvía,T,2,Bicentenario,Loyola,2.25,2.5,4.75,estimado,Estimado operativo para línea completa con 9 estaciones / segmentos
+Tranvía,T,3,Loyola,Oriente,2.25,2.5,4.75,estimado,Estimado operativo para línea completa con 9 estaciones / segmentos
+Tranvía,T,4,Oriente,Pabellón del Agua,2.25,2.5,4.75,estimado,Estimado operativo para línea completa con 9 estaciones / segmentos
+Tranvía,T,5,Pabellón del Agua,San José,2.25,2.5,4.75,estimado,Estimado operativo para línea completa con 9 estaciones / segmentos
+Tranvía,T,6,San José,Buenos Aires,2.25,2.5,4.75,estimado,Estimado operativo para línea completa con 9 estaciones / segmentos
+Tranvía,T,7,Buenos Aires,Miraflores,2.25,2.5,4.75,estimado,Estimado operativo para línea completa con 9 estaciones / segmentos
+Tranvía,T,8,Miraflores,San Antonio,2.25,2.5,4.75,estimado,Estimado operativo para línea completa con 9 estaciones / segmentos

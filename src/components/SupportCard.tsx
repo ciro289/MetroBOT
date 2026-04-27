@@ -1,0 +1,52 @@
+import React, { useState } from 'react';
+import { WhatsAppIcon } from './WhatsAppIcon';
+import { HelpCircle, ChevronUp, ChevronDown } from 'lucide-react';
+
+export function SupportCard() {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const whatsappNumber = "3017085321";
+  const message = "Hola, necesito ayuda con una estación/bicicleta de EnCicla.";
+  const whatsappUrl = `https://wa.me/57${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+  return (
+    <div className={`bg-white/95 backdrop-blur-md rounded-2xl shadow-xl border border-white/50 transition-all duration-300 pointer-events-auto overflow-hidden ${isExpanded ? 'w-64 p-4' : 'w-48 p-3 cursor-pointer select-none hover:bg-white'}`}
+      onClick={() => !isExpanded && setIsExpanded(true)}
+    >
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <div className="p-1.5 bg-blue-100 rounded-lg">
+            <HelpCircle className="w-4 h-4 text-blue-600" />
+          </div>
+          <h4 className="text-sm font-bold text-slate-800">Soporte EnCicla</h4>
+        </div>
+        <button 
+          onClick={(e) => {
+            e.stopPropagation();
+            setIsExpanded(!isExpanded);
+          }}
+          className="p-1 hover:bg-slate-100 rounded-lg transition-colors"
+        >
+          {isExpanded ? <ChevronDown className="w-4 h-4 text-slate-400" /> : <ChevronUp className="w-4 h-4 text-slate-400" />}
+        </button>
+      </div>
+      
+      {isExpanded && (
+        <div className="mt-3">
+          <p className="text-xs text-slate-600 mb-3 leading-relaxed">
+            ¿Necesitas ayuda con una bicicleta o el estado de una estación?
+          </p>
+
+          <a 
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full py-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-xl text-xs font-bold transition-all shadow-sm hover:shadow-md active:scale-95"
+          >
+            <WhatsAppIcon className="w-4 h-4 brightness-0 invert" />
+            Escribir al 301 708 5321
+          </a>
+        </div>
+      )}
+    </div>
+  );
+}

@@ -1,0 +1,5 @@
+{
+  "name": "MetroBot Medellín",
+  "description": "Intelligent Mobility Ecosystem of Medellín (2025) - SITVA multimodal transit assistant.",
+  "requestFramePermissions": ["geolocation"]
+}
