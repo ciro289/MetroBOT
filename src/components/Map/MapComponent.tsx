@@ -139,6 +139,48 @@ export function MapComponent({ onSearchRoute, origin, dest, routes, activeRouteI
     updatePaths();
   }, [origin, dest, currentRoute, routeOrigin, routeDest]);
 
+  const handleComoLlegar = (station: Station) => {
+    const destCoords = { lat: station.lat, lng: station.lng, name: station.nombre };
+    if (onDestSelect) onDestSelect(destCoords);
+
+    if (origin) {
+      if (onSearchRoute) {
+        onSearchRoute(
+          { lat: origin.lat, lng: origin.lng, name: 'Origen actual' },
+          destCoords
+        );
+      }
+    } else {
+      if (navigator.geolocation) {
+        setLoading(true);
+        navigator.geolocation.getCurrentPosition(
+          async (position) => {
+            const { latitude, longitude } = position.coords;
+            let originName = "Mi ubicación actual";
+            try {
+              const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&zoom=18&addressdetails=1`);
+              const data = await res.json();
+              originName = data.display_name ? data.display_name.split(',')[0] : originName;
+            } catch (e) {
+              console.error(e);
+            }
+            if (onOriginSelect) onOriginSelect({ lat: latitude, lng: longitude, name: originName });
+            if (onSearchRoute) onSearchRoute({ lat: latitude, lng: longitude, name: originName }, destCoords);
+            setLoading(false);
+          },
+          (error) => {
+            setLoading(false);
+            console.error(error);
+            alert('No se pudo obtener tu ubicación automáticamente. Por favor ingresa o selecciona tu punto de partida en el buscador.');
+          },
+          { enableHighAccuracy: true, timeout: 10000 }
+        );
+      } else {
+        alert('Tu navegador no soporta geolocalización. Ingresa tu punto de partida en el buscador.');
+      }
+    }
+  };
+
   const renderOriginMarker = () => {
     const markers = [];
     
@@ -314,7 +356,10 @@ export function MapComponent({ onSearchRoute, origin, dest, routes, activeRouteI
                     <span className="px-1.5 py-0.5 rounded bg-slate-100 font-mono font-bold text-slate-800 border border-slate-200">{station.linea}</span>
                   </div>
                   <div className="pt-2">
-                    <button className="w-full bg-sitva-green text-white font-bold py-1.5 rounded-lg text-xs shadow-sm hover:bg-sitva-green/90 transition-colors">
+                    <button 
+                      onClick={() => handleComoLlegar(station)}
+                      className="w-full bg-sitva-green text-white font-bold py-1.5 rounded-lg text-xs shadow-sm hover:bg-sitva-green/90 transition-colors"
+                    >
                       ¿Cómo llegar?
                     </button>
                   </div>

@@ -2,7 +2,13 @@ import { GoogleGenAI, Type, FunctionDeclaration } from '@google/genai';
 import { getStationStatus } from './routing';
 import { loadStations, calculateDistance } from './stations';
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+let ai: GoogleGenAI;
+try {
+  const apiKey = process.env.GEMINI_API_KEY || "DUMMY_KEY_TO_PREVENT_CRASH";
+  ai = new GoogleGenAI({ apiKey });
+} catch (e) {
+  console.warn("Could not initialize GoogleGenAI", e);
+}
 
 let cachedStations: string = '';
 let cachedTarifas: string = '';
